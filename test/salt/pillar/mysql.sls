@@ -107,7 +107,7 @@ mysql:
   user:
     frank:
       password: 'somepass'
-      host: 172.16.40.0/255.255.255.0
+      host: localhost
       databases:
         - database: foo
           grants: ['select', 'insert', 'update']
